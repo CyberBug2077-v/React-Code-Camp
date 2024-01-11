@@ -1,0 +1,13 @@
+.todo-item {
+    background-color: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+  }
+  
