@@ -1,14 +1,15 @@
 import React from 'react';
 import './FilterTabs.css';
 
-function FilterTabs() {
+export const FilterTabs = () => {
   return (
     <div className="filter-tabs">
-      <button>All</button>
-      <button>Important</button>
+      <div>
+        <button>All</button>
+        <button>Important</button>
+      </div>
       <button>Types</button>
     </div>
   );
 }
 
-export default FilterTabs;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './AddButton.css';
 
-function AddButton({ onAdd }) {
+export const AddButton = ({ onAdd }) => {
   const [inputValue, setInputValue] = useState('');
 
   const handleAddClick = () => {
@@ -24,5 +24,3 @@ function AddButton({ onAdd }) {
     </div>
   );
 }
-
-export default AddButton;

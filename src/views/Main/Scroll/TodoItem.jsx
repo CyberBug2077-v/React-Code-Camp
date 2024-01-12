@@ -1,7 +1,7 @@
 import React from 'react';
 import './TodoItem.css';
 
-function TodoItem({ id, text, isCompleted, isImportant, onComplete, onDelete, onToggleImportant }) {
+export const TodoItem = ({ id, text, isCompleted, isImportant, onComplete, onDelete, onToggleImportant }) => {
   return (
     <li className={`todo-item ${isCompleted ? 'completed' : ''} ${isImportant ? 'important' : ''}`}>
       <span onClick={() => onComplete(id)}>{text}</span>
@@ -10,5 +10,3 @@ function TodoItem({ id, text, isCompleted, isImportant, onComplete, onDelete, on
     </li>
   );
 }
-
-export default TodoItem;
