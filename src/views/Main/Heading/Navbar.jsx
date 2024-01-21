@@ -4,9 +4,9 @@ import './Navbar.css';
 export const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-menu">Menu</div>
+      <button className ="iconSetting"></button>
       <h1>My Todo List</h1>
-      <div className="navbar-search">Search</div>
+      <button className ="iconProfile"></button>
     </nav>
   );
 }

@@ -1,8 +1,33 @@
 .navbar {
-    background-color: #333;
-    color: white;
+    background-color: rgba(217, 217, 217, 0.6);
+    color: black;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-  }
-  
+}
+.iconSetting {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/iconSetting.png');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+.iconProfile {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/iconProfile.png');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}

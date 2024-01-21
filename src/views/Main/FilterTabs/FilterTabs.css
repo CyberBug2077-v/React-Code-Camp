@@ -1,9 +1,37 @@
 .filter-tabs {
+    background-color: rgba(217, 217, 217, 0.6);
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding:0px 20px 5px 20px;
 }
+
 .filter-tabs button {
-    margin-right: 5px;
+    background:none;
+    padding:0px 12px 0px 12px;
+    border: none;
 }
-  
+
+.filter {
+    background-color: rgba(200, 200, 200, 1);
+    height:40px;
+    width:160px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.types {
+    background-color: rgba(200, 200, 200, 1);
+    height:40px;
+    width:60px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter button {
+    padding:0px 20px 0px 20px;
+}

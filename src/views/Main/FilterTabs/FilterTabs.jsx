@@ -4,11 +4,13 @@ import './FilterTabs.css';
 export const FilterTabs = () => {
   return (
     <div className="filter-tabs">
-      <div>
+      <div className="filter">
         <button>All</button>
         <button>Important</button>
       </div>
-      <button>Types</button>
+      <div className="types">
+        <button>Types</button>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,195 @@
+#TypeContainer{
+    position: fixed;
+    bottom: 45vh;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    z-index: 992;
+    display: none;
+}
+#Types{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding:0px 20px;
+}
+
+#iconType{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/iconSetting.png');
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+}
+
+#iconTodoAdd {
+    position: fixed;
+    bottom: 8vh;
+    right: 5vw;
+    padding: 1vh 1vw;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/iconTodoAdd.png');
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+
+#Add {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Add.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+
+
+#pullUpContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 990;
+    display: none;
+}
+
+#mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 991;
+}
+
+#ContentContainer{
+    position: fixed;
+    bottom: 35vh;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    z-index: 992;
+
+}
+
+#Content{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding:0px 20px;
+}
+
+#KeyBoard{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 35vh;
+    width: 100%;
+    background-color: white;
+    z-index: 992;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Type {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Type.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.Type1 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Type1.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.Type2 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Type2.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.Type3 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Type3.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.Type4 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Type4.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.Type5 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Type5.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.Type6 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    background-image: url('../asset/img/Type6.png');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
